@@ -209,8 +209,8 @@ ul {
     margin-bottom: 60px;
 }
 
-.container>.flex {
-    margin-bottom: 60px;
+.container .line-second:last-child {
+    margin-top: 60px;
 }
 
 .wraper-marsel .flex {
