@@ -9,10 +9,10 @@ font-family: 'Playfair
  */
 :root {
     --acent-color: #998431;
-    --prime-color: #FFFFFF;
+    --prime-color: #ffffff;
     --second-color: #282828;
     --cards-color: #000000;
-    --second-bgc: #E6E3C4;
+    --second-bgc: #e6e3c4;
 }
 
 *,
@@ -22,14 +22,20 @@ font-family: 'Playfair
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
 
     margin: 0 auto;
     background-color: #bababa;
     color: var(--prime-color);
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -58,9 +64,9 @@ ul {
 
 .title {
     font-size: 36px;
-    line-height: 1.50;
+    line-height: 1.5;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
@@ -81,7 +87,7 @@ ul {
 /* header */
 .bg-img {
     padding-top: 30px;
-    background-image: url('../img/bgc.jpg');
+    background-image: url("../img/bgc.jpg");
     background-size: cover;
 }
 
@@ -95,21 +101,21 @@ ul {
     margin-bottom: 20px;
 
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
 }
 
-.address> a {
+.address>a {
     color: inherit;
     font-weight: 500;
     font-size: 13px;
-    line-height: 1.50;
+    line-height: 1.5;
 }
 
 .contact-lists a {
     color: inherit;
     font-weight: 500;
     font-size: 13px;
-    line-height: 1.50;
+    line-height: 1.5;
 }
 
 .contact-lists li:not(:last-child) {
@@ -134,7 +140,7 @@ ul {
 
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
 }
 
 .navi a {
@@ -149,7 +155,7 @@ ul {
 .wraper-hero h1 {
     font-weight: 800;
     font-size: 40px;
-    line-height: 1.50;
+    line-height: 1.5;
     margin-bottom: 80px;
 }
 
@@ -171,7 +177,6 @@ ul {
     letter-spacing: 0.05em;
     color: var(--prime-color);
     text-transform: uppercase;
-    
 }
 
 .wraper-description {
@@ -179,7 +184,7 @@ ul {
 }
 
 .container .description {
-    border: 3px solid #C4C4C4;
+    border: 3px solid #c4c4c4;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 190px;
@@ -194,7 +199,7 @@ ul {
 
 .container .description p {
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     text-align: center;
     color: var(--prime-color);
     margin-bottom: 50px;
@@ -220,20 +225,19 @@ ul {
 .cards-marsel {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     color: var(--second-color);
-
 }
 
 .marsel-description {
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     color: var(--cards-color);
 }
 
 .titel-marsel {
     font-size: 36px;
-    line-height: 1.50;
+    line-height: 1.5;
     margin-bottom: 30px;
     color: var(--cards-color);
 }
@@ -247,7 +251,7 @@ ul {
 
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.50;
+    line-height: 1.5;
 }
 
 .cards-marsel .line-cards {
@@ -269,7 +273,6 @@ table {
 td {
     padding: 0;
     border: solid 1.5px var(--cards-color);
-
 }
 
 td:not(:first-child) {
@@ -283,11 +286,11 @@ td:not(:last-child) {
 .table-row h3 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.50;
+    line-height: 1.5;
 }
 
 .lists-photos>img {
-    display: block; 
+    display: block;
     margin-bottom: 30px;
 }
 
@@ -318,7 +321,7 @@ td:not(:last-child) {
 
 .description.digustation p {
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -327,20 +330,22 @@ td:not(:last-child) {
     margin-bottom: 40px;
 }
 
-.lists-input li{
+.lists-input li {
     width: 255px;
 }
 
 .lists-input input {
     width: inherit;
+    color: var(--prime-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
 }
-
 
 select {
     width: 300px;
     height: 20px;
 }
-
 
 .description.digustation input {
     border: none;
@@ -357,15 +362,22 @@ select {
     margin-bottom: 50px;
 
     font-weight: 500;
-    font-size: 13px;
-    line-height: 1.50;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 option {
     color: var(--second-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
 }
 
-.wraper-send button {
+.btn-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
     min-height: 50px;
     background-color: inherit;
@@ -422,13 +434,21 @@ input {
 
 .navi.flex {
     margin-bottom: 0;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.navi.flex>li p{ 
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.50;
+    text-align: center;
 }
 
 .navi-footer a {
-
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.50;
+    line-height: 1.5;
     color: inherit;
 }
 

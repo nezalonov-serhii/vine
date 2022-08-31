@@ -18,8 +18,8 @@
             <address class="address flex">
                 <a href="">Перевулок 2 дом 3</a>
                 <ul class="contact-lists flex">
-                    <li><a href="">+380 777 77 77</a></li>
-                    <li><a href="">mail@.com</a></li>
+                    <li><a href="tel:+3807777777">+380 777 77 77</a></li>
+                    <li><a href="mailto:mail@.com" target="_blank" rel="noopener noreferrer nofollow">mail@.com</a></li>
                 </ul>
             </address>
             <nav>
@@ -37,10 +37,10 @@
             <h1>Винний бутік LE CORTE</h1>
             <ul class="lists-btn flex">
                 <li>
-                    <a href="" class="btn">винна карта</a>
+                    <a href="#marsel" class="btn">винна карта</a>
                 </li>
                 <li>
-                    <a href="" class="btn">дегустація</a>
+                    <a href="#degust" class="btn">дегустація</a>
                 </li>
             </ul>
         </section>
@@ -67,7 +67,7 @@
     </div>
 
     <!-- Урожай Марселя -->
-    <div class="wraper-marsel">
+    <div class="wraper-marsel" id="marsel">
         <section class="container">
             <div class="line-second"></div>
                 <div class="flex">
@@ -126,7 +126,7 @@
     </div>
 
     <!-- Запис на дегустацію -->
-    <div class="wraper-description">
+    <div class="wraper-description" id="degust" >
         <div class="container">
             <section class="description digustation">
                 <h2 class="title">Запис на дегустацію</h2>
@@ -145,8 +145,9 @@
                         <option value="2">Перевулок 26 будинок 33</option>
                         <option value="3">Перевулок 678 будинок 734</option>
                     </select>
-  
-                    <button type="button">записатися</button>
+                    
+                    <a href="./index.html" class="btn-link">записатися</a>
+                    <!-- <button type="button" class="btn-link">записатися</button> -->
                 </div>
                 <img src="./img/grape.jpg" alt="" class="grape">
                 <img src="./img/barrel.jpg" alt="" class="barrel">
@@ -160,7 +161,7 @@
             <div class="line-second"></div>
             <nav>
                 <ul class="navi-footer flex ">
-                    <li><a href="">Головна</a></li>
+                    <li><a href="./index.html">Головна</a></li>
                     <li><a href="">Каталог</a></li>
                     <li><a href="">Постачальники</a></li>
                     <li><a href="">Колекції</a></li>
@@ -171,26 +172,26 @@
             </nav>
         
             <ul class="navi flex">
-                <li><a href="">винный бутик LE CORTE</a></li>
-                <li><a href="">8 (812) 123-45-67</a></li>
+                <li><a href="./index.html">винный бутик LE CORTE</a></li>
+                <li><a href="tel:+3807777777">+380 777 77 77</a></li>
                 <li>
                     <ul class="social-icons">
                         <li>
-                            <a href="./">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="icon">
                                 <use href="./img/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                             </a>
                         </li>
                         <li>
-                            <a href="./">
+                            <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="icon">
                                 <use href="./img/symbol-defs.svg#icon-telegram"></use>
                             </svg>
                             </a>
                         </li>
                         <li>
-                            <a href="./">
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="icon">
                                 <use href="./img/symbol-defs.svg#icon-twitter"></use>
                             </svg>
@@ -198,7 +199,9 @@
                         </li>
                     </ul>
                 </li>
-                <li>&copy;le-corte.ru</li>
+                <li>
+                    <p>&copy; le-corte.ru</p>
+                </li>
             </ul>
         </footer>
     </div>
