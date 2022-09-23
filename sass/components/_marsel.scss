@@ -54,10 +54,15 @@
    width: 260px;
    border-radius: 5px;
    padding: 15px 30px;
+   margin-bottom: 30px;
    background: $acent-color;
 }
 
 .marsel-photos__list {
     display: flex;
     justify-content: space-between;
+}
+
+.marsel-img {
+   margin-bottom: 30px;
 }

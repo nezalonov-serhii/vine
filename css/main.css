@@ -220,13 +220,16 @@ body {
   border-right: 1px solid #ffffff;
 }
 
-.hero-section {
-  padding-top: 400px;
-  padding-bottom: 100px;
+.hero-wrap {
   background-image: url(../../img/bgc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-section {
+  padding-top: 400px;
+  padding-bottom: 100px;
 }
 
 .hero__title {
@@ -347,6 +350,7 @@ body {
   width: 260px;
   border-radius: 5px;
   padding: 15px 30px;
+  margin-bottom: 30px;
   background: #998431;
 }
 
@@ -359,18 +363,32 @@ body {
           justify-content: space-between;
 }
 
+.marsel-img {
+  margin-bottom: 30px;
+}
+
 .tasting-wrap {
   background-color: #282828;
 }
 
 .tasting {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 100px 160px;
+  padding: 100px 0;
 }
 
 .tasting__wrap {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   border: solid 2px #ffffff;
   padding-top: 100px;
@@ -390,7 +408,6 @@ body {
 .tasting__desc {
   position: relative;
   max-width: 540px;
-  margin: 0 auto;
   margin-bottom: 80px;
 }
 .tasting__desc::before {
