@@ -221,7 +221,7 @@ body {
 }
 
 .hero-wrap {
-  background-image: url(./img/bgc.jpg);
+  background-image: url(../img/bgc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -290,7 +290,7 @@ body {
   margin: 50px auto 0;
   width: 160px;
   height: 160px;
-  background-image: url(./img/wineglass.svg);
+  background-image: url(../img/wineglass.svg);
 }
 
 .marsel {
