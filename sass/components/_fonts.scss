@@ -1,0 +1,128 @@
+body {
+   font-family: "Oswald", sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   background-color: $second-bgc;
+   color: $prime-color;
+}
+
+.adress__link {
+   font-weight: 500;
+   font-size: 13px;
+}
+
+.nav__link {
+   font-weight: 500;
+   font-size: 20px;
+   
+   letter-spacing: 2px;
+}
+
+.hero__title {
+   font-weight: 800;
+   font-size: 40px;
+}
+
+.hero__btn {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.25;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+}
+
+.desc-section__title {
+   font-size: 36px;
+   text-align: center;
+}
+
+.desc-section__desc {
+   text-align: center;
+}
+
+// marsel
+.marsel {
+   color: $prime-bgc;
+}
+
+.cards__titel {
+   font-size: 36px;
+}
+
+.cards__desc {
+   font-size: 14px;
+}
+
+.cards-table__date {
+   font-size: 14px;
+}
+
+.cards-table__title {
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.cards-table__desc {
+   font-size: 14px;
+}
+
+.cards__desc {
+   font-size: 14px;
+}
+
+.cards__btn {
+   font-weight: 500;
+   line-height: 1.25;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   color: $prime-color;
+}
+
+// tasting
+.tasting__title {
+   font-size: 36px;
+   text-align: center;
+}
+
+.tasting__desc {
+   text-align: center;
+}
+
+.tasting-form {
+   font-weight: 500;
+   font-size: 13px;
+}
+
+.tasting-form__input {
+   color: currentColor;  
+}
+
+.tasting-form__select {
+   color: currentColor;
+}
+
+.tasting-form__choice {
+   color: $cards-color;
+}
+
+.tasting-form__btn {
+   font-weight: 500;
+   line-height: 1.25;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   color: currentColor;
+}
+
+// footer
+.footer-nav__link {
+   font-size: 14px;
+}
+
+.footer-contacts__link {
+   font-weight: 600;
+   font-size: 14px;
+   text-transform: uppercase;
+}

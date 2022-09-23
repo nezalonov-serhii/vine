@@ -5,206 +5,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Wine</title>
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <div class="bg-img">
-        <header class="container wraper-heder">
-            <address class="address flex">
-                <a href="">Перевулок 2 дом 3</a>
-                <ul class="contact-lists flex">
-                    <li><a href="tel:+3807777777">+380 777 77 77</a></li>
-                    <li><a href="mailto:mail@.com" target="_blank" rel="noopener noreferrer nofollow">mail@.com</a></li>
-                </ul>
-            </address>
-            <nav>
-                <ul class="navi flex">
-                    <li><a href="">Каталог</a></li>
-                    <li><a href="">Доставка</a></li>
-                    <li><a href="">Колекції</a></li>
-                    <li><a href="">Контакти</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Hero -->
-        <section class="container wraper-hero">
-            <h1>Винний бутік LE CORTE</h1>
-            <ul class="lists-btn flex">
-                <li>
-                    <a href="#marsel" class="btn">винна карта</a>
-                </li>
-                <li>
-                    <a href="#degust" class="btn">дегустація</a>
-                </li>
+    <header class="header__wrap container">
+        <address class="adress ">
+            <a href="" class="adress__link">Перевулок 2 дом 3</a>
+            <ul class="adress__list">
+                <li class="adress__item"><a href="tel:+3807777777" class="adress__link">+380 777 77 77</a></li>
+                <li class="adress__item"><a href="mailto:mail@.com" target="_blank" rel="noopener noreferrer nofollow"
+                        class="adress__link">mail@.com</a></li>
             </ul>
-        </section>
-    </div>
+        </address>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./" class="nav__link">Каталог</a></li>
+                <li class="nav__item"><a href="./" class="nav__link">Доставка</a></li>
+                <li class="nav__item"><a href="./" class="nav__link">Колекції</a></li>
+                <li class="nav__item"><a href="./" class="nav__link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-section container">
+        <h1 class="hero__title">Винний бутік LE CORTE</h1>
+        <ul class="hero__list">
+            <li class="hero__item">
+                <a href="#marsel" class="hero__btn">винна карта</a>
+            </li>
+            <li class="hero__item">
+                <a href="#degust" class="hero__btn">дегустація</a>
+            </li>
+        </ul>
+    </section>
     <!-- смак багаторічного вина -->
-    <div class="wraper-description">
-        <div class="container">
-        <section class=" description">
-            <h2 class="title">Найкращий смак, це смак багаторічного вина</h2>
-            <div class="line"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing.
-                Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus
+    <div class="desc-container container">
+        <section class="desc_section">
+            <h2 class="desc-section__title">Найкращий смак, це смак багаторічного вина</h2>
+            <p class="desc-section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor
+                in hac id imperdiet
+                adipiscing.
+                Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst
+                risus
                 pulvinar
-                blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet
+                blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam
+                amet
                 rutrum. Lectus
-                auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien,
+                auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras
+                sapien,
                 pellentesque
-                viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod
+                viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium
+                euismod
                 diam.
                 Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
-                <img src="./img/wineglass.svg" alt="Келих вина" width="160">
+            <!-- <img src="./img/wineglass.svg" class="desc-section__img" alt="Келих вина" width="160"> -->
         </section>
-        </div>
     </div>
 
     <!-- Урожай Марселя -->
-    <div class="wraper-marsel" id="marsel">
-        <section class="container">
-            <div class="line-second"></div>
-                <div class="flex">
-                    <div class="cards-marsel">
-                        <p class="marsel-description">Новинки колекцій</p>
-                        <h2 class="titel-marsel">Березень 1980<br>
-                            Урожай Марселя</h2>
-                        <div class="line-cards"></div>
-                        <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id
-                            imperdiet adipiscing.
-                            Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.</p>
-                    
-                        <table>
-                            <tbody>
-                                <tr class="table-row">
-                                    <td>1980</td>
-                                    <td>
-                                        <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
-                                        <p>Барвисті пляшки вина з Марселя.</p>
-                                    </td>
-                                <tr>
-                                <tr>
-                                    <td>1980</td>
-                                    <td>
-                                        <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
-                                        <p>Барвисті пляшки вина з Марселя.</p>
-                                    </td>
-                                <tr>
-                                <tr>
-                                    <td>1980</td>
-                                    <td>
-                                        <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
-                                        <p>Барвисті пляшки вина з Марселя.</p>
-                                    </td>
-                                <tr>
-                            </tbody>
-                        </table>
-                    
-                    
-                        <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id
-                            imperdiet adipiscing.
-                            Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.</p>
-                    
-                        <a href="" class="btn">дізнатись деталі</a>
+    <section class="marsel container" id="marsel">
+        <div class="cards">
+            <p class="cards__pre-titel">Новинки колекцій</p>
+            <h2 class="cards__titel">Березень 1980<br>
+                Урожай Марселя</h2>
+            <p class="cards__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim
+                tortor in hac id
+                imperdiet adipiscing.
+                Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.</p>
+
+            <table class="cards-table">
+                <tbody class="cards-table__tbody">
+                    <tr class="cards-table__table-row">
+                        <td class="cards-table__table-data"><span class="cards-table__date">1980</span></td>
+                        <td class="cards-table__table-data">
+                            <h3 class="cards-table__title">Colli Euganei Bianco Ca' Lustra 1980</h3>
+                            <p class="cards-table__desc">Барвисті пляшки вина з Марселя.</p>
+                        </td>
+                    <tr>
+                    <tr class="cards-table__table-row">
+                        <td class="cards-table__table-data"><span class="cards-table__date">1980</span></td>
+                        <td class="cards-table__table-data">
+                            <h3 class="cards-table__title">Colli Euganei Bianco Ca' Lustra 1980</h3>
+                            <p class="cards-table__desc">Барвисті пляшки вина з Марселя.</p>
+                        </td>
+                    <tr>
+                    <tr class="cards-table__table-row">
+                        <td class="cards-table__table-data"><span class="cards-table__date">1980</span></td>
+                        <td class="cards-table__table-data">
+                            <h3 class="cards-table__title">Colli Euganei Bianco Ca' Lustra 1980</h3>
+                            <p class="cards-table__desc">Барвисті пляшки вина з Марселя.</p>
+                        </td>
+                    <tr>
+                </tbody>
+            </table>
+
+
+            <p class="cards__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim
+                tortor in hac id
+                imperdiet adipiscing.
+                Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.</p>
+
+            <a href="" class="cards__btn">дізнатись деталі</a>
+        </div>
+        <div class="marsel-photos">
+            <img src="./img/wine-1.jpg" alt="" width="540" height="500">
+            <ul class="marsel-photos__list">
+                <li class="marsel-photos__item"><img src="./img/wine-2.jpg" alt="" width="255" height="228"></li>
+                <li class="marsel-photos__item"><img src="./img/wine-3.jpg" alt="" width="255" height="228"></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Запис на дегустацію -->
+    <div class="tasting-wrap ">
+        <section class="tasting " id="degust">
+            <div class="tasting__wrap">
+                <h2 class="tasting__title">Запис на дегустацію</h2>
+                <p class="tasting__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in
+                    hac
+                    id imperdiet
+                    adipiscing.
+                    Pellentesque nisi, mi sit non sit sed fermentum.</p>
+                <form class="tasting-form">
+                    <ul class="tasting-form__list">
+
+                        <li class="tasting-form__item"><label for="" class="tasting-form__label"><span class="tasting-form__name">Ім'я:</span><input type="text"
+                                    placeholder="Сергій Валеріович" class="tasting-form__input"></label></li>
+
+
+                        <li class="tasting-form__item"><label for="" class="tasting-form__label"><span class="tasting-form__name">Телефон:</span><input
+                                    type="text" placeholder="+380 777 777 777" class="tasting-form__input tasting-form__input--tell"></label></li>
+
+                    </ul>
+
+                    <div class="wraper-send">
+
+                        <select name="" id="" class="tasting-form__select">
+                            <option value="1" class="tasting-form__choice">Перевулок 2 будинок 3</option>
+                            <option value="2" class="tasting-form__choice">Перевулок 26 будинок 33</option>
+                            <option value="3" class="tasting-form__choice">Перевулок 678 будинок 734</option>
+                        </select>
+
+                        <button type="submit" class="tasting-form__btn">записатися</button>
                     </div>
-                    <div class="lists-photos">
-                        <img src="./img/wine-1.jpg" alt="">
-                        <ul class="list-photo flex">
-                            <li><img src="./img/wine-2.jpg" alt=""></li>
-                            <li><img src="./img/wine-3.jpg" alt=""></li>
-                        </ul>
-                    </div>
-                </div>
-            <div class="line-second"></div> 
+                </form>
+            </div>
         </section>
     </div>
 
-    <!-- Запис на дегустацію -->
-    <div class="wraper-description" id="degust" >
-        <div class="container">
-            <section class="description digustation">
-                <h2 class="title">Запис на дегустацію</h2>
-                <div class="line"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing.
-                Pellentesque nisi, mi sit non sit sed fermentum.</p>
-            
-                <ul class="lists-input flex">
-                    <li><input type="text" placeholder="Ім'я"></li>
-                    <li><input type="text" placeholder="Телефон"></li>
-                </ul>
-                <div class="wraper-send"> 
-
-                     <select name="" id="">
-                        <option value="1">Перевулок 2 будинок 3</option>
-                        <option value="2">Перевулок 26 будинок 33</option>
-                        <option value="3">Перевулок 678 будинок 734</option>
-                    </select>
-                    
-                    <a href="./index.html" class="btn-link">записатися</a>
-                    <!-- <button type="button" class="btn-link">записатися</button> -->
-                </div>
-                <img src="./img/grape.jpg" alt="" class="grape">
-                <img src="./img/barrel.jpg" alt="" class="barrel">
-            </section>
-        </div>
-    </div>
-
     <!-- footer -->
-    <div class="bgk-footer">
-        <footer class="container">
-            <div class="line-second"></div>
-            <nav>
-                <ul class="navi-footer flex ">
-                    <li><a href="./index.html">Головна</a></li>
-                    <li><a href="">Каталог</a></li>
-                    <li><a href="">Постачальники</a></li>
-                    <li><a href="">Колекції</a></li>
-                    <li><a href="">Дегустація</a></li>
-                    <li><a href="">Колекція 2020</a></li>
-                    <li><a href="">Контакти</a></li>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item"><a href="./index.html" class="footer-nav__link">Головна</a></li>
+                    <li class="footer-nav__item"><a href="./" class="footer-nav__link">Каталог</a></li>
+                    <li class="footer-nav__item"><a href="./" class="footer-nav__link">Постачальники</a></li>
+                    <li class="footer-nav__item"><a href="./" class="footer-nav__link">Колекції</a></li>
+                    <li class="footer-nav__item"><a href="./" class="footer-nav__link">Дегустація</a></li>
+                    <li class="footer-nav__item"><a href="./" class="footer-nav__link">Колекція 2020</a></li>
+                    <li class="footer-nav__item"><a href="./" class="footer-nav__link">Контакти</a></li>
                 </ul>
             </nav>
-        
-            <ul class="navi flex">
-                <li><a href="./index.html">винный бутик LE CORTE</a></li>
-                <li><a href="tel:+3807777777">+380 777 77 77</a></li>
-                <li>
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer nofollow">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                            </svg>
+            
+            <ul class="footer-contacts">
+                <li class="footer-contacts__item"><a href="./index.html" class="footer-contacts__link">винный бутик LE
+                        CORTE</a></li>
+                <li class="footer-contacts__item"><a href="tel:+3807777777" class="footer-contacts__link">+380 777 77 77</a>
+                </li>
+                <li class="footer-contacts__item">
+                    <ul class="social">
+                        <li class="social-item">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer nofollow"
+                                class="social__link">
+                                <svg class="social__icon" width="26" height="26">
+                                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer nofollow">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#icon-telegram"></use>
-                            </svg>
+                        <li class="social-item">
+                            <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer nofollow"
+                                class="social__link">
+                                <svg class="social__icon" width="26" height="26">
+                                    <use href="./img/symbol-defs.svg#icon-telegram"></use>
+                                </svg>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow">
-                            <svg class="icon">
-                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
+                        <li class="social-item">
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow" class="social__link">
+                                <svg class="social__icon" width="26" height="26">
+                                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <p>&copy; le-corte.ru</p>
+                <li class="footer-contacts__item">
+                    <p class="footer-contacts__link">&copy; le-corte.ru</p>
                 </li>
             </ul>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>

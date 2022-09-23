@@ -1,0 +1,63 @@
+.marsel {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 140px;
+   padding-bottom: 140px;
+}
+
+.cards {
+}
+
+.cards__pre-titel {
+   margin-bottom: 30px;
+}
+
+.cards__titel {
+   margin-bottom: 60px;
+   position: relative;
+   &::after {
+      content: "";
+      width: 160px;
+      height: 2px;
+      background-color: $prime-bgc;
+      position: absolute;
+      bottom: -30px;
+      left: 0px;
+   }
+}
+
+.cards__desc {
+   margin-bottom: 30px;
+   width: 445px;
+}
+
+.cards-table {
+   margin-bottom: 30px;
+
+   border-collapse: collapse;
+   border: solid 5px $second-bgc;
+}
+
+.cards-table__table-data {
+   border: solid 1.5px $cards-color;
+   &:not(:first-child) {
+      padding-left: 30px;
+   }
+   &:not(:last-child) {
+      padding: 30px;
+   }
+}
+
+.cards__btn {
+   display: block;
+   width: 260px;
+   border-radius: 5px;
+   padding: 15px 30px;
+   background: $acent-color;
+}
+
+.marsel-photos__list {
+    display: flex;
+    justify-content: space-between;
+}

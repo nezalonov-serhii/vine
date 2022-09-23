@@ -1,0 +1,38 @@
+.desc-container {
+    padding: 100px 150px;
+    background-color: $prime-bgc;
+}
+
+.desc_section {
+    padding: 60px 160px;
+    border: solid 2px $prime-color;
+}
+
+.desc-section__title {
+    margin-bottom: 80px;
+    position: relative;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translatex(-50%);
+
+        background-color: $prime-color;
+        width: 100px;
+        height: 2px;
+    }
+}
+
+.desc-section__desc {
+    &::after {
+        content: "";
+        display: block;
+        margin: 50px auto 0;
+        width: 160px;
+        height: 160px;
+        background-image: url(../../img/wineglass.svg);
+    }
+}

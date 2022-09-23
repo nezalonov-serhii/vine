@@ -1,0 +1,100 @@
+.tasting-wrap {
+   background-color: $prime-bgc;
+}
+
+.tasting {
+   width: 1170px;
+   margin: 0 auto;
+   padding: 100px 160px;
+}
+
+.tasting__wrap {
+    position: relative;
+    margin: 0 auto;
+    border: solid 2px $prime-color;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.tasting__title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px 50px;
+    transform: translate(-50%, -60%);
+    background-color: $prime-bgc;
+}
+
+.tasting__desc {
+    position: relative;
+    max-width: 540px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    &::before {
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color: $prime-color;
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.tasting-form__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tasting-form__item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.tasting-form__label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasting-form__name {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.tasting-form__input {
+    background-color: inherit;
+    border: none;
+    width: 255px;
+    border-bottom: 2px solid $prime-color;
+    padding: 5px 30px;
+    margin-bottom: 40px;
+    &--tell:last-child {
+        padding-left: 55px;
+    }
+}
+
+.wraper-send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasting-form__select {
+    background-color: inherit;
+    width: 340px;
+    border: none;
+    border-bottom: 2px solid $prime-color;
+    margin-bottom: 40px;
+}
+
+.tasting-form__btn {
+    padding: 15px 30px;
+    width: 300px;
+    background-color: $prime-bgc;
+    border: solid 2px $prime-color;
+}
